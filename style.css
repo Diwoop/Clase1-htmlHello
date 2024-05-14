@@ -1,0 +1,112 @@
+
+body{
+    background-color: black;
+}
+.post{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+
+}
+/* Capçalera */
+.header{
+    display:flex;
+    justify-content: space-between;
+    height: auto
+}
+
+.imgPerfil{
+    display:flex;
+    height: 45px;
+    width: auto;
+    margin: 10px ;    
+}
+
+.imgPerfil img{
+    width:auto;
+    height: 30px;
+    align-self: center;
+}
+
+.infoPerfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+}
+
+.infoPerfil h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;
+    padding: 0;
+}
+
+ .infoPerfil p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px 10px 10px 10px;
+    padding: 0;
+}
+
+.tresp{
+    align-self: center;
+    margin-right: 10px;
+
+}
+.tresp img{
+    width: auto;
+    height: 35px;
+}
+
+/*imatge*/
+
+.post-imag{
+    width: 100%;
+    height: auto;
+}
+.post-imag img{
+    width: 100%;
+    height: auto;
+}
+
+/* icons */
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+
+}
+.iconsPrinc{
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+.iconsPrinc img{
+    margin-right: 7px;
+}
+.guardar{
+    display: flex;
+    align-items: center;
+}
+.icons img{
+    width: 40px;
+    height: auto;
+}
+
+/* icons */
+
+.peuDeFoto{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.peuDeFoto p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.peuDeFoto p span{
+    font-weight: bold;
+}
